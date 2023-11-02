@@ -39,5 +39,19 @@ Sanayi, endüstri ve ısınmada kullanılan fosil yakıtlar ile ormanların tahr
 
 300 milyon çocuk 'zehir soluyor'."""
         await message.channel.send(cevap3)
+
+        elif  message.content.startswith("Hava kirliliği kaynakları nedir?"):
+        cevap4 = """Isınmadan kaynaklanan hava kirliliği
+Isınma amaçlı, düşük kalorili ve kükürt oranı yüksek kömürlerin [4] yaygın olarak kullanılması ve yanlış yakma tekniklerinin[kaynak belirtilmeli] uygulanması hava kirliliğine yol açar.
+
+Motorlu taşıtlardan kaynaklanan hava kirliliği
+Ayrıca bakınız: Türkiye'de çevre sorunları
+Nüfus artışı ve gelir düzeyinin yükselmesine paralel olarak, sayısı hızla artan motorlu taşıtlardan çıkan egzoz gazları, hava kirliliğinde önemli bir faktör oluşturmaktadır, mesela partikül [5] ve azot dioksit.
+
+Sanayiden kaynaklanan hava kirliliği
+Sanayi tesislerinin kuruluşunda yanlış yer seçimi, çevrenin korunması açısından gerekli tedbirlerin alınmaması (baca filtresi, arıtma tesisi olmaması vb.), uygun teknolojilerin kullanılmaması, enerji üreten yakma ünitelerinde vasıfsız ve yüksek kükürtlü yakıtların kullanılması, hava kirliliğine sebep olur."""
+
+        await message.channel.send(cevap4)
+
         
 client.run("")
